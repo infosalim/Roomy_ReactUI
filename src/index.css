@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;500&family=Fira+Sans:wght@400;500;600;700&display=swap');
+
+body {
+  color: #4F4E4E;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+}
+/* font-family: 'Encode Sans', sans-serif;
+font-family: 'Fira Sans', sans-serif; */
+p {
+  color: #909090;
+  font-family: 'Encode Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+  color: #4F4E4E;
+}
+
+a{
+  color: #4F4E4E;
+  display: inline-block;
+  text-decoration: none;
+  transition: all .3s ease-in;
+}
+a:hover{
+  text-decoration: none;
+  color: inherit;
+  opacity: .9;
+}

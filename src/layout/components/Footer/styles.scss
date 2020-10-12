@@ -1,0 +1,38 @@
+footer {
+    background: #47A87A;
+  
+    .footer-wrapper {
+    height: 92px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      nav{
+        flex-grow: 1;
+        text-align: center;
+        padding-left: 60px;
+      }
+  
+      ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+  
+        li{
+          display: inline-block;
+  
+          a{
+            padding: 0 27px;
+            color: #fff;
+          }
+        }
+      }
+      
+    .social-links{
+        a{
+          padding: 0 5px;
+        }
+      }
+    }
+  }
+  
