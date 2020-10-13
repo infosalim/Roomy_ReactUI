@@ -1,0 +1,10 @@
+.places-area{
+    padding-bottom: 170px;
+    .col-md-4{
+        position: relative;
+
+        &:nth-child(n + 4){
+            margin-top: 50px;
+        }
+    }
+}
