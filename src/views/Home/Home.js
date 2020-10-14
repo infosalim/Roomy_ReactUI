@@ -32,7 +32,7 @@ export default function Home() {
       <SectionTitle
         title="Extra Services"
         desc="We have a wide range of extra services to serve your needs. Click to view more."
-        para={{ padding: "0 80px" }}
+        para={{ padding: "0 190px" }}
       />
       <Service />
     </React.Fragment>

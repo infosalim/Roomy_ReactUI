@@ -7,8 +7,8 @@ export default function SectionTitle({ title, desc, ...props }) {
     <div>
       <Container>
         <Row>
-          <Col md={{ span: "6", offset: "3" }}>
-          <div className="section-title">
+          <Col md={{ span: "8", offset: "2" }}>
+          <div className="section-title" style={props.styles}>
             <h2>{title}</h2>
             <p style={props.para}>{desc}</p>
             </div>

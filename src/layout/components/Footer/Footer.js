@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import footerLogo from '../../../assets/footer-logo.png';
 import instagram from '../../../assets/icons/instagram.png'; 
 import facebook from '../../../assets/icons/facebook.png'; 
-import another from '../../../assets/icons/another.png'; 
+import tripadvisor from '../../../assets/icons/tripadvisor.png'; 
 
 import "./styles.scss";
 
@@ -31,7 +31,7 @@ const renderMenu = menuItems.map((item, i) => (<li key={i}><Link to={item.linkTo
                 <ul>
                     <li><Link to={{pathname: "https://instagram.com"}} target="_blank"><img src={instagram} alt="icon"/></Link></li>
                     <li><Link to={{pathname: "https://facebook.com"}} target="_blank"><img src={facebook} alt="icon"/></Link></li>
-                    <li><Link to={{pathname: "https://facebook.com"}} target="_blank"><img src={another} alt="icon"/></Link></li>
+                    <li><Link to={{pathname: "https://www.tripadvisor.com/"}} target="_blank"><img src={tripadvisor} alt="icon"/></Link></li>
                 </ul>
             </div>
           </div>

@@ -2,7 +2,6 @@
     min-width: 280px;
     text-align: center;
     background: rgba(237, 107, 78, 0.99);
-    border: 1px solid rgba(237, 107, 78, 0.99);
     border-radius: 10px;
     color: #FEFEFE;
     padding: 10px 0;
@@ -12,8 +11,7 @@
     }
 
     &:hover{
-        color: rgba(237, 107, 78, 0.99);
-        border-color: rgba(237, 107, 78, 0.99);
-        background: #FEFEFE;
+        background: #47A87A;
+        color: #FEFEFE;
     }
 }

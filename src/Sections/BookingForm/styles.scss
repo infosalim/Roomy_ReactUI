@@ -1,0 +1,105 @@
+.booking-form {
+  margin-bottom: 170px;
+
+  .booking-form-wrapper {
+    position: relative;
+    background: #fff;
+
+    .title {
+      display: flex;
+      position: relative;
+      align-items: center;
+      left: 0;
+      top: 0;
+      width: 100%;
+      justify-content: center;
+      height: 110px;
+      background: #e1e0e0;
+
+      &:after {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 30px;
+        background: #47a87a;
+        left: 0;
+        top: 0;
+      }
+
+      h2 {
+        color: #47a87a;
+      }
+    }
+    form {
+      padding: 80px;
+
+      h4 {
+        color: #000000;
+        margin-bottom: 16px;
+      }
+      textarea {
+        height: 300px;
+        resize: none;
+      }
+      .name-email,
+      .textarea {
+        margin-top: 60px;
+      }
+      .input-box {
+        + .input-box {
+          margin-top: 10px;
+        }
+        input,
+        textarea {
+          background: rgba(144, 144, 144, 0.15);
+          border-radius: 5px;
+          width: 100%;
+          border: none;
+          outline: none;
+          padding: 13px 10px;
+        }
+      }
+
+      .payment-option{
+          input{
+              height: 0;
+              width: 0;
+          }
+          .radio-container{
+            padding-left: 50px;
+
+            span{
+                font-family: Encode Sans;
+                font-size: 16px;
+                span{
+                    color:#ED6B4E;
+                }
+            }
+          }
+      }
+      button{
+        background: #47A87A;
+        border-radius: 10px;
+        width: 350px;
+        padding: 10px;
+        outline: none;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        margin-left: auto;
+        margin-top: 120px;
+        transition: all .3s ease-in;
+
+        img{
+            margin-right: 10px;
+        }
+
+        &:hover{
+            background: #ED6B4E;
+        }
+      }
+    }
+  }
+}
