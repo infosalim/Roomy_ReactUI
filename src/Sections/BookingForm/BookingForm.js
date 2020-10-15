@@ -22,7 +22,7 @@ export default function BookingForm({roomReserve}) {
                   <h4>Your Messages</h4>
                   <div className="input-box">
                     <label className="radio-container">
-                      Spa<br/>
+                    Pay later<br/>
                       <span><span>Risk free!</span> Free cancellation during Covid-19.</span>
                       <input type="radio" name="radio" />
                       <span className="checkmark"></span>
@@ -30,7 +30,7 @@ export default function BookingForm({roomReserve}) {
                   </div>
                   <div className="input-box">
                   <label className="radio-container">
-              Restaurant
+                  Pay Now
                 <input type="radio" name="radio" />
                 <span className="checkmark"></span>
               </label>

@@ -10,7 +10,7 @@ import tripadvisor from '../../../assets/icons/tripadvisor.png';
 import "./styles.scss";
 
 const Footer = () => {
-  const menuItems = [{title: 'Accomodations', linkTo: '/'}, {title: 'Extra Services', linkTo: '/extra-service'}, {title: 'Contact Us 0700-79 79 79', linkTo: '/contact-us'}];
+  const menuItems = [{title: 'Accommodations', linkTo: '/'}, {title: 'Extra Services', linkTo: '/extra-service'}, {title: 'Contact Us 0700-79 79 79', linkTo: '/contact-us'}];
 
 const renderMenu = menuItems.map((item, i) => (<li key={i}><Link to={item.linkTo}>{item.title}</Link></li>))
   return (

@@ -122,7 +122,7 @@ export default function BookingCard() {
               </label>
             </div>
           </div>
-          <RoomyBtn linkTo='/' caption='Search Place' btnType='large' />
+          <RoomyBtn linkTo='/search' caption='Search Place' btnType='large' />
         </div>
       </form>
     </div>

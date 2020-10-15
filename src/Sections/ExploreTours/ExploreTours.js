@@ -9,7 +9,7 @@ import saigon from "../../assets/images/service/sai-gon.jpg";
 import huetour from "../../assets/images/service/hue-tour.jpg";
 import hoirtour from "../../assets/images/service/hoi-tour.jpg";
 
-export default function ServiceSection() {
+export default function ExploreTours() {
   const serviceData = [
     {
       thumbnail: saigon,
